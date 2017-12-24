@@ -11,6 +11,5 @@ from sklearn.metrics import mean_squared_error, r2_score
 import numpy as np
 
 
-reg = linear_model.LinearRegression()
-reg.fit([[0,0],[1,1],[2,2]],[0,1,2])
-reg.coef_
+diabetes = datasets.load_diabetes()
+
